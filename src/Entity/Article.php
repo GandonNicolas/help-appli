@@ -33,11 +33,7 @@ class Article
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $image;
-
-    /**
-     * @ORM\Column(type="datetime")
-     */
+    
     private $createDate;
 
     /**
